@@ -1,0 +1,20 @@
+.error-msg {
+    width: 50%;
+}
+
+.error-img {
+    width: 50%;
+    float: left;
+}
+
+.error-content {
+    display: flex;
+    padding: 50px 0;
+}
+
+.error-heading{
+    padding-bottom: 30px;
+        font-size: 4em;
+
+}
+    
