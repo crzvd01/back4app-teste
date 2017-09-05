@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="css/resizing-nav.css">
     <link rel="stylesheet" href="css/side-nav.css">
     <link rel="stylesheet" href="css/documentation.css">
-    <title>Back4App Home</title>
+    <link rel="stylesheet" href="css/header-search.css">
+    <title>Back4App - Documentation Home</title>
 </head>
 
 <body>
@@ -29,39 +30,31 @@
                             <img src="http://via.placeholder.com/150x50" alt="back4app logo">
                         </div>
                         <hr>
-                        <a href="#">Type something</a>
-                        <a href="#">Type something</a>
-                        <a href="#">Type something</a>
-                        <a href="#">Type something</a>
+                        <a href="#" class="footer-link link-hover">Type something</a>
+                        <a href="#" class="footer-link link-hover">Type something</a>
+                        <a href="#" class="footer-link link-hover">Type something</a>
+                        <a href="#" class="footer-link link-hover">Type something</a>
                     </div>
                     <div class="burger-menu" >
                         <span id="burger" onclick="openNav()">&#9776; </span>
                     </div>
                     
                     <div class="header-search">
-                        <input type="search" name="headersearch" id="search-field" class="header-search-field">
-                        
-                        <a href="#" class="fa fa-search" aria-hidden="true" id="search-icon"></a>
+                        <form class="searchbox">
+                            <input type="search" placeholder="Placeholder..." name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+                            <input type="submit" class="searchbox-submit fa" value="&#xf002;">
+                            <span class="searchbox-icon"></span>
+                        </form>
                     </div>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    
                     <div class="collapse navbar-collapse" id="top-nav">
                         <h1 class="title-header">Documentation</h1>
-                        <!-- <ul class="nav navbar-nav navbar-right">
-                            <li class="page-scroll">
-                                <a href="#portfolio">Portfolio</a>
-                            </li>
-                            <li class="page-scroll">
-                                <a href="#about">About</a>
-                            </li>
-                            <li class="page-scroll">
-                                <a href="#contact">Contact</a>
-                            </li>
-                        </ul> -->
+                        
                     </div>
-                    <!-- /.navbar-collapse -->
+                 
                     
                 </div>
-                <!-- /.container-fluid -->
+               
             </nav>
         </div>
     </header>
@@ -69,35 +62,36 @@
         <div class="container">
            <h2>Welcome to Back4App Docs</h2>
 
-           <h3 class="title-links">Who should use Back4App?</h3>
-           <p>
-               <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae et dolores minus cum eveniet maiores cupiditate deleniti illum, debitis laborum minima saepe doloribus unde! Ipsa, aliquam ullam! Animi, nihil doloremque.</span>
-               <span>Quidem ut explicabo quibusdam optio pariatur necessitatibus excepturi corporis consectetur laborum. Et voluptatem enim illum, adipisci similique error ut harum, odit nulla saepe quam assumenda, nesciunt neque? Minima, deserunt dolores!</span>      
-           </p>
+            <h3 class="title-links">Who should use Back4App?</h3>
+            <p class="p-style">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae et dolores minus cum eveniet maiores cupiditate deleniti illum, 
+               debitis laborum minima saepe doloribus unde! Ipsa, aliquam ullam! Animi, nihil doloremque.
+               Quidem ut explicabo quibusdam optio pariatur necessitatibus excepturi corporis consectetur laborum. Et voluptatem enim illum, adipisci similique 
+               error ut harum, odit nulla saepe quam assumenda, nesciunt neque? Minima, deserunt dolores!    
+            </p>
             
-           <div class="center">
+            <div class="center">
 
                <div class="doc-links">
                  <a href="https://placeholder.com"><img src="http://via.placeholder.com/300x200" alt="guides" class="doc-imgs"></a>
                    <h3 class="title-links">Guides</h3>
-                   <p>Lorem ipsum dolor sit am, consectetur ipsum dolor.</p>
-                   <a href="#" class="link-style">Type something</a>
+                   <p class="p-style">Lorem ipsum dolor sit am, consectetur ipsum dolor.</p>
+                   <a href="#" class="link-style link-style-hover">Type something</a>
                </div>
                 <div class="doc-links">
                     <a href="https://placeholder.com"><img src="http://via.placeholder.com/300x200" alt="troubleshooting" class="doc-imgs"></a>
                     <h3 class="title-links">Troubleshooting</h3>
-                    <p>Lorem ipsum dolor sit am, consectetur ipsum dolor.</p>
-                    <a href="#" class="link-style">Type something</a>
+                    <p class="p-style">Lorem ipsum dolor sit am, consectetur ipsum dolor.</p>
+                    <a href="#" class="link-style link-style-hover">Type something</a>
                 </div>
                 <div class="doc-links">
                     <a href="https://placeholder.com"><img src="http://via.placeholder.com/300x200" alt="API" class="doc-imgs"></a>
                     <h3 class="title-links">API</h3>
-                    <p>Lorem ipsum dolor sit am, consectetur ipsum dolor.</p>
-                    <a href="#" class="link-style">Type something</a>
+                    <p class="p-style">Lorem ipsum dolor sit am, consectetur ipsum dolor.</p>
+                    <a href="#" class="link-style link-style-hover">Type something</a>
                 </div>
            </div>
 
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           <p class="p-style">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
             aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 
@@ -196,7 +190,7 @@
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="js/navbar-shrink.js"></script>
-   
+    <script src="js/header-search.js"></script>
     <script src="js/side-nav.js"></script>
 </body>
 

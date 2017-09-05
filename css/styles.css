@@ -111,7 +111,7 @@ header, nav, footer, section, article, div {
 
 .links-footer {
 	display: inline-block;
-	padding: 2.5em 2em;
+	padding: 1.25em 2em;
 	vertical-align: top;
 	margin: 0 auto;
 }
@@ -203,6 +203,11 @@ header, nav, footer, section, article, div {
 .link-style{
     color: #208AEC;
     text-decoration:underline;
+}
+
+.link-style-hover:hover {
+	font-weight: bold;
+	color: #208AEC;
 }
 
 .link-hover:hover{

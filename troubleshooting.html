@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="css/resizing-nav.css">
     <link rel="stylesheet" href="css/side-nav.css">
     <link rel="stylesheet" href="css/troubleshooting.css">
-    <title>Back4App Home</title>
+    <link rel="stylesheet" href="css/header-search.css">
+    <title>Back4App - Troubleshooting</title>
 </head>
 
 <body>
@@ -37,25 +38,21 @@
                     
                         <span class="burger-menu" onclick="openNav()">&#9776; </span>
 
+                    <div class="header-search">
+                        <form class="searchbox">
+                            <input type="search" placeholder="Placeholder..." name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+                            <input type="submit" class="searchbox-submit fa" value="&#xf002;">
+                            <span class="searchbox-icon"></span>
+                        </form>
+                    </div>
                     
-                    <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="top-nav">
                         <h1 class="title-header">Troubleshooting</h1>
-                        <!-- <ul class="nav navbar-nav navbar-right">
-                            <li class="page-scroll">
-                                <a href="#portfolio">Portfolio</a>
-                            </li>
-                            <li class="page-scroll">
-                                <a href="#about">About</a>
-                            </li>
-                            <li class="page-scroll">
-                                <a href="#contact">Contact</a>
-                            </li>
-                        </ul> -->
+                        
                     </div>
-                    <!-- /.navbar-collapse -->
+                 
                 </div>
-                <!-- /.container-fluid -->
+                
             </nav>
         </div>
     </header>
@@ -72,25 +69,25 @@
                 <h2>Some common mistakes:</h2>
                 <article>
                     <h3 class="error-title">403 on API Request</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci corrupti consequuntur ipsam impedit 
+                    <p class="p-style">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci corrupti consequuntur ipsam impedit 
                         quaerat voluptates modi vel obcaecati ratione in tenetur unde provident, nesciunt at maiores dicta rerum repudiandae similique.</p>
-                    <a href="#" class="link-style">See here more about this error...</a>
+                    <a href="#" class="link-style link-style-hover">See here more about this error...</a>
                 </article>
 
                 <article>
                     <h3 class="error-title">403 using dashboard</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci corrupti consequuntur ipsam impedit
+                    <p class="p-style">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci corrupti consequuntur ipsam impedit
                         quaerat voluptates modi vel obcaecati ratione in tenetur unde provident, nesciunt at maiores dicta
                         rerum repudiandae similique.</p>
-                    <a href="#" class="link-style">See here more about this error...</a>
+                    <a href="#" class="link-style link-style-hover">See here more about this error...</a>
                 </article>
 
                 <article>
                     <h3 class="error-title">403 using blablabla</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci corrupti consequuntur ipsam impedit
+                    <p class="p-style">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci corrupti consequuntur ipsam impedit
                         quaerat voluptates modi vel obcaecati ratione in tenetur unde provident, nesciunt at maiores dicta
                         rerum repudiandae similique.</p>
-                    <a href="#" class="link-style">See here more about this error...</a>
+                    <a href="#" class="link-style link-style-hover">See here more about this error...</a>
                 </article>
 
             </section>
@@ -220,6 +217,7 @@
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="js/navbar-shrink.js"></script>
+    <script src="js/header-search.js"></script>
     <script src="js/side-nav.js"></script>
 </body>
 
