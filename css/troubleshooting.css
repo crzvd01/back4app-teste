@@ -1,0 +1,29 @@
+.form-control {
+    border: 0;
+    box-shadow: none;
+    width:500px;
+    border-bottom: thin solid #208AEC;
+    border-radius:0;
+   
+}
+
+.search-title{
+    margin-bottom:24px;
+    font-size: 2em;
+}
+
+.search-form{
+    margin-bottom: 24px;
+}
+.search-form:focus {
+    box-shadow: none;
+}
+
+.btn {
+    font-weight: bold;
+    width: 150px;
+}
+
+.error-title{
+    font-weight: bold;
+}
