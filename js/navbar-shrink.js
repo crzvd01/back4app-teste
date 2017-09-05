@@ -4,11 +4,12 @@ $(document).ready(function () {
         
         if ($(document).scrollTop() > 50) {
            $('.navbar-default').addClass('navbar-shrink');
-           $('#burguer').addClass('burger-shrink');
+           $('.burger-menu').addClass('burger-shrink');
         } else {
            $('.navbar-default').removeClass('navbar-shrink');
-           $('#burguer').removeClass('burger-shrink');
+           $('.burger-menu').removeClass('burger-shrink');
         }
 
     });
 });
+
