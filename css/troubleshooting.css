@@ -26,4 +26,16 @@
 
 .error-title{
     font-weight: bold;
+    padding-top: 24px;
 }
+
+.related-links{
+    list-style-type: none;
+    padding-right: 48px;
+    padding-top: 36px;
+}
+
+.related-links>li {
+    padding: 10px 0;
+}
+
