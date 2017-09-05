@@ -235,6 +235,13 @@ header, nav, footer, section, article, div {
 	color: #208AEC;
 }
 
+.link-style:visited{
+	color: #5C6BC0;
+}
+.link-style:visited:hover{
+	font-weight: bold;
+	color:#5C6BC0;
+}
 .link-hover:hover{
 	font-weight: 800 ;
 	color: #208AEC;
