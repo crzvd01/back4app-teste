@@ -1,0 +1,43 @@
+.center {
+    text-align: center;
+    margin-bottom: 48px;
+    margin-top: 36px;
+}
+
+.doc-links {
+    width: 33%;
+    display: inline-block;
+    text-align: left;
+}
+
+.doc-imgs {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}   
+
+.fa-search {
+    color: white;
+    padding: 6px;
+    font-size: 1.625em;
+    font-weight: 100;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.header-search a{
+    color: white;
+    text-decoration: none;
+}
+
+.header-search-field {
+    float: left;
+    margin-top: 20px;
+    width: 250px;
+    height: 1.625em;
+}
+
+.title-links{
+    font-weight: bold;
+}
+

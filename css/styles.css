@@ -23,9 +23,14 @@ header, nav, footer, section, article, div {
     display:block;
     clear:both;
 }
-
+/* ESTILOS HEADER/NAV */
 .navbar{
 	padding: 20px 0;
+	background-color: white;
+	border: 0;
+}
+
+.shrinking-nav-style{
 	background-color: #208AEC;
 }
 
@@ -68,6 +73,8 @@ header, nav, footer, section, article, div {
     font-size: .75em;
 }
 
+
+/* ESTILOS FOOTER */
 .footer {	
 	background-color: #616161;
 	margin: 0 auto;
@@ -82,7 +89,10 @@ header, nav, footer, section, article, div {
 
 .footer-link  {
 	color: #E0E0E0;
-	
+}
+
+.footer-link:hover{
+	text-decoration: none;
 }
 
 .footer li {
@@ -156,13 +166,14 @@ header, nav, footer, section, article, div {
   color: #424242 ;
 }
 
-.fa:hover {
+.fa-hover:hover {
 	color: #208AEC;
 	text-decoration: none;
 }
 
 .fa-github:hover{
 	color:#00D200;
+	text-decoration: none;
 }
 
 .links-section {
@@ -185,4 +196,35 @@ header, nav, footer, section, article, div {
 .social-media {
 	  float: left;
 	  padding: 0 10px;
+}
+
+/* ESTILOS CONTEUDO */
+
+.link-style{
+    color: #208AEC;
+    text-decoration:underline;
+}
+
+.link-hover:hover{
+	font-weight: 800 ;
+	color: #208AEC;
+}
+
+
+.p-style{
+	color:#616161;
+}
+
+.btn {
+    font-weight: bold;
+    
+    font-size: inherit;
+    background-color: #208AEC;
+    border-color: #208AEC;
+}
+
+.btn:hover{
+    color:#208AEC;
+    border-color: #208AEC;
+    background-color: white;
 }

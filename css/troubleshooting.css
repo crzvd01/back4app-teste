@@ -20,10 +20,6 @@
     box-shadow: none;
 }
 
-.btn {
-    font-weight: bold;
-    width: 150px;
-}
 
 .main-content {
     padding: 100px 0;
@@ -58,4 +54,8 @@
 
 .center {
     text-align: center;
+}
+
+.btn{
+    width: 150px;
 }

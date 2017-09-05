@@ -13,20 +13,20 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/resizing-nav.css">
     <link rel="stylesheet" href="css/side-nav.css">
-    <link rel="stylesheet" href="css/troubleshooting.css">
+    <link rel="stylesheet" href="css/documentation.css">
     <title>Back4App Home</title>
 </head>
 
 <body>
     <header>
         <div>
-            <nav class="navbar navbar-default navbar-fixed-top" id="header">
+            <nav class="navbar navbar-default navbar-fixed-top shrinking-nav-style" id="header">
                 <div class="container">
 
                     <div id="mySidenav" class="sidenav">
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        <div class=links-footer>
-                            <a href="https://placeholder.com"><img src="http://via.placeholder.com/150x50" alt="back4app logo"></a>
+                        <div class="center-logo">
+                            <img src="http://via.placeholder.com/150x50" alt="back4app logo">
                         </div>
                         <hr>
                         <a href="#">Type something</a>
@@ -34,12 +34,18 @@
                         <a href="#">Type something</a>
                         <a href="#">Type something</a>
                     </div>
-
-                    <span class="burger-menu" id="burger" onclick="openNav()">&#9776; </span>
-
+                    <div class="burger-menu" >
+                        <span id="burger" onclick="openNav()">&#9776; </span>
+                    </div>
+                    
+                    <div class="header-search">
+                        <input type="search" name="headersearch" id="search-field" class="header-search-field">
+                        
+                        <a href="#" class="fa fa-search" aria-hidden="true" id="search-icon"></a>
+                    </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="top-nav">
-                        <h1 class="title-header">Troubleshooting</h1>
+                        <h1 class="title-header">Documentation</h1>
                         <!-- <ul class="nav navbar-nav navbar-right">
                             <li class="page-scroll">
                                 <a href="#portfolio">Portfolio</a>
@@ -53,6 +59,7 @@
                         </ul> -->
                     </div>
                     <!-- /.navbar-collapse -->
+                    
                 </div>
                 <!-- /.container-fluid -->
             </nav>
@@ -60,72 +67,41 @@
     </header>
     <main style="padding-top:100px; padding-bottom:100px">
         <div class="container">
-            <section>
-                <h2 class="search-title">What error are you looking to solve?</h2>
+           <h2>Welcome to Back4App Docs</h2>
 
-                <input type="search" class="form-control search-form" name="errorsearch" placeholder="Paste your error here...">
+           <h3 class="title-links">Who should use Back4App?</h3>
+           <p>
+               <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae et dolores minus cum eveniet maiores cupiditate deleniti illum, debitis laborum minima saepe doloribus unde! Ipsa, aliquam ullam! Animi, nihil doloremque.</span>
+               <span>Quidem ut explicabo quibusdam optio pariatur necessitatibus excepturi corporis consectetur laborum. Et voluptatem enim illum, adipisci similique error ut harum, odit nulla saepe quam assumenda, nesciunt neque? Minima, deserunt dolores!</span>      
+           </p>
+            
+           <div class="center">
 
-                <button type="submit" class="btn btn-primary">FIND NOW</button>
-            </section>
-            <section>
-                <h2>Some common mistakes:</h2>
-                <article>
-                    <h3 class="error-title">403 on API Request</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci corrupti consequuntur ipsam impedit
-                        quaerat voluptates modi vel obcaecati ratione in tenetur unde provident, nesciunt at maiores dicta
-                        rerum repudiandae similique.</p>
-                    <a href="#">See here more about this error...</a>
-                </article>
-
-                <article>
-                    <h3 class="error-title">403 using dashboard</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci corrupti consequuntur ipsam impedit
-                        quaerat voluptates modi vel obcaecati ratione in tenetur unde provident, nesciunt at maiores dicta
-                        rerum repudiandae similique.</p>
-                    <a href="#">See here more about this error...</a>
-                </article>
-
-                <article>
-                    <h3 class="error-title">403 using blablabla</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci corrupti consequuntur ipsam impedit
-                        quaerat voluptates modi vel obcaecati ratione in tenetur unde provident, nesciunt at maiores dicta
-                        rerum repudiandae similique.</p>
-                    <a href="#">See here more about this error...</a>
-                </article>
-
-            </section>
-
-            <!-- Section e div a seguir referentes a pagina de troubleshooting apos a busca -->
-
-            <!-- <section>
-                <h3 class="error-title">Related searches with {Text that the user typed}:</h3>
-                <ul class="related-links" style="float:left">
-                    <li><a href="">Type something</a></li>
-                    <li><a href="">Type something</a></li>
-                    <li><a href="">Type something</a></li>
-                    <li><a href="">Type something</a></li>
-                </ul>
-                <ul class="related-links" >
-                    <li><a href="">Type something</a></li>
-                    <li><a href="">Type something</a></li>
-                    <li><a href="">Type something</a></li>
-                    <li><a href="">Type something</a></li>
-                </ul>
-            </section>
-            <div class="center">
-                <div class="pagination">
-                    <a href="#">&laquo;</a>
-                    <a href="#">1</a>
-                    <a href="#">2</a>
-                    <a href="#">3</a>
-                    <a href="#">4</a>
-                    <a href="#">5</a>
-                    <a href="#">6</a>
-                    <a href="#">&raquo;</a>
+               <div class="doc-links">
+                 <a href="https://placeholder.com"><img src="http://via.placeholder.com/300x200" alt="guides" class="doc-imgs"></a>
+                   <h3 class="title-links">Guides</h3>
+                   <p>Lorem ipsum dolor sit am, consectetur ipsum dolor.</p>
+                   <a href="#" class="link-style">Type something</a>
+               </div>
+                <div class="doc-links">
+                    <a href="https://placeholder.com"><img src="http://via.placeholder.com/300x200" alt="troubleshooting" class="doc-imgs"></a>
+                    <h3 class="title-links">Troubleshooting</h3>
+                    <p>Lorem ipsum dolor sit am, consectetur ipsum dolor.</p>
+                    <a href="#" class="link-style">Type something</a>
                 </div>
+                <div class="doc-links">
+                    <a href="https://placeholder.com"><img src="http://via.placeholder.com/300x200" alt="API" class="doc-imgs"></a>
+                    <h3 class="title-links">API</h3>
+                    <p>Lorem ipsum dolor sit am, consectetur ipsum dolor.</p>
+                    <a href="#" class="link-style">Type something</a>
+                </div>
+           </div>
 
-            </div>
-        </div> -->
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+        </div> 
     </main>
 
     <footer class="footer" id="footer1">
@@ -140,33 +116,15 @@
                     <div>
                         <h3>Type something</h3>
                         <ul>
-                            <li><a href="#" class="footer-link">Type something</a></li>
+                            <li><a href="#" class="footer-link link-hover">Type something</a></li>
 
-                            <li><a href="#" class="footer-link">Type something</a></li>
+                            <li><a href="#" class="footer-link link-hover">Type something</a></li>
 
-                            <li><a href="#" class="footer-link">Type something</a></li>
+                            <li><a href="#" class="footer-link link-hover">Type something</a></li>
 
-                            <li><a href="#" class="footer-link">Type something</a></li>
+                            <li><a href="#" class="footer-link link-hover">Type something</a></li>
 
-                            <li><a href="#" class="footer-link">Type something</a></li>
-
-                        </ul>
-                    </div>
-                </li>
-
-                <li class="link-col">
-                    <div>
-                        <h3>Type something</h3>
-                        <ul>
-                            <li><a href="#" class="footer-link">Type something</a></li>
-
-                            <li><a href="#" class="footer-link">Type something</a></li>
-
-                            <li><a href="#" class="footer-link">Type something</a></li>
-
-                            <li><a href="#" class="footer-link">Type something</a></li>
-
-                            <li><a href="#" class="footer-link">Type something</a></li>
+                            <li><a href="#" class="footer-link link-hover">Type something</a></li>
 
                         </ul>
                     </div>
@@ -176,15 +134,33 @@
                     <div>
                         <h3>Type something</h3>
                         <ul>
-                            <li><a href="#" class="footer-link">Type something</a></li>
+                            <li><a href="#" class="footer-link link-hover">Type something</a></li>
 
-                            <li><a href="#" class="footer-link">Type something</a></li>
+                            <li><a href="#" class="footer-link link-hover">Type something</a></li>
 
-                            <li><a href="#" class="footer-link">Type something</a></li>
+                            <li><a href="#" class="footer-link link-hover">Type something</a></li>
 
-                            <li><a href="#" class="footer-link">Type something</a></li>
+                            <li><a href="#" class="footer-link link-hover">Type something</a></li>
 
-                            <li><a href="#" class="footer-link">Type something</a></li>
+                            <li><a href="#" class="footer-link link-hover">Type something</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="link-col">
+                    <div>
+                        <h3>Type something</h3>
+                        <ul>
+                            <li><a href="#" class="footer-link link-hover">Type something</a></li>
+
+                            <li><a href="#" class="footer-link link-hover">Type something</a></li>
+
+                            <li><a href="#" class="footer-link link-hover">Type something</a></li>
+
+                            <li><a href="#" class="footer-link link-hover">Type something</a></li>
+
+                            <li><a href="#" class="footer-link link-hover">Type something</a></li>
 
                         </ul>
                     </div>
@@ -193,9 +169,9 @@
                     <div>
                         <h3>Type something</h3>
                         <ul>
-                            <li class="social-media"><a href="#" class="fa fa-facebook"></a></li>
-                            <li class="social-media"><a href="#" class="fa fa-linkedin"></a></li>
-                            <li class="social-media"><a href="#" class="fa fa-twitter"></a></li>
+                            <li class="social-media"><a href="#" class="fa fa-facebook fa-hover"></a></li>
+                            <li class="social-media"><a href="#" class="fa fa-linkedin fa-hover"></a></li>
+                            <li class="social-media"><a href="#" class="fa fa-twitter fa-hover"></a></li>
                             <li class="social-media"><a href="#" class="fa fa-github"></a></li>
                         </ul>
                     </div>
@@ -220,6 +196,7 @@
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="js/navbar-shrink.js"></script>
+   
     <script src="js/side-nav.js"></script>
 </body>
 
