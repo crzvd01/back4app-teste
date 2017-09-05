@@ -39,7 +39,7 @@ header, nav, footer, section, article, div {
 }
 .navbar ul { 
 	margin: 0; 
-	padding: 5px; 
+	padding: 10px; 
 	list-style-type: none; 
 	text-align: center; 
 	
@@ -64,6 +64,28 @@ header, nav, footer, section, article, div {
     color:#424242;
 }
 
+.navbar ul li:hover > a {
+    color: #424242;
+    font-weight: bold;
+}
+
+.navbar ul li:hover a:hover {
+    color: #208AEC;
+	font-weight: bold;
+	background-color: initial;
+}
+
+.dropdown-menu {
+	font-size: 1em;
+	border:0;
+	box-shadow: none;
+}
+.dropdown-menu li> a {
+	padding: 10px 0;
+}
+
+
+
 .title-header {
 	color: white;
 	font-size: 3em;
@@ -73,6 +95,9 @@ header, nav, footer, section, article, div {
     font-size: .75em;
 }
 
+.side-links {
+	padding: 15px 0;
+}
 
 /* ESTILOS FOOTER */
 .footer {	
